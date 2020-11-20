@@ -13,21 +13,21 @@ class Config {
     connectTimeout = 6000;
     switch (appFlavor) {
       case Flavor.RELEASE:
-        base_url = 'https://jtapi.jtexpress.co.th/jts-tha-service-reportapp';
+        base_url = 'xx';
         break;
       case Flavor.DEVELOPMENT:
       default:
-        base_url = 'https://47.57.97.45/jts-tha-service-reportapp';
+        base_url = 'xx';
     }
   }
 
   static String get baseUrl {
     switch (appFlavor) {
       case Flavor.RELEASE:
-        return 'https://jtapi.jtexpress.co.th/jts-tha-service-reportapp';
+        return 'xx';
       case Flavor.DEVELOPMENT:
       default:
-        return 'https://47.57.97.45/jts-tha-service-reportapp';
+        return 'xx';
     }
   }
 
